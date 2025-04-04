@@ -14,7 +14,6 @@ def create_vector_store(chunks):
 
 
 
-
 # from langchain.vectorstores import FAISS
 # from langchain.embeddings import GoogleGenerativeAIEmbeddings
 # from langchain_community.embeddings import GoogleGenerativeAIEmbeddings
