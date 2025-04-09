@@ -1,4 +1,3 @@
-
 from langchain.chains import RetrievalQA
 
 def create_qa_chain(llm, vector_store):
