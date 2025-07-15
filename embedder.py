@@ -8,12 +8,6 @@ def create_vector_store(chunks):
     # Create and return the FAISS vector store
     return FAISS.from_documents(chunks, embedding)
 
-
-
-
-
-
-
 # from langchain.vectorstores import FAISS
 # from langchain.embeddings import GoogleGenerativeAIEmbeddings
 # from langchain_community.embeddings import GoogleGenerativeAIEmbeddings
